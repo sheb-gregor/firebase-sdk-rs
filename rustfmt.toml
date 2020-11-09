@@ -1,0 +1,26 @@
+edition = "2018"
+max_width = 100
+tab_spaces = 4
+indent_style = "Block"
+
+brace_style = "SameLineWhere"
+control_brace_style = "AlwaysSameLine"
+enum_discrim_align_threshold = 20
+fn_args_density = "Tall"
+fn_single_line = true
+error_on_unformatted = true
+
+imports_layout = "HorizontalVertical"
+imports_indent = "Block"
+merge_derives = true
+merge_imports = true
+
+reorder_imports = true
+reorder_modules = true
+reorder_impl_items = true
+
+struct_lit_single_line = true
+struct_field_align_threshold = 20
+trailing_comma = "Vertical"
+use_try_shorthand = true
+force_multiline_blocks = true

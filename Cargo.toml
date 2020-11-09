@@ -1,0 +1,20 @@
+[package]
+name = "firebase-sdk"
+version = "0.0.1"
+authors = ["Michael Popsuev <sheb.gregor@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+description = "This crate allows to interact with Firebase."
+readme = "README.md"
+keywords = ["firebase", "firebase-auth", "firebase-admib", "firestore", "auth"]
+categories = ["api-bindings","authentication"]
+repository = "https://github.com/sheb-gregor/firebase-sdk-rs"
+
+[dependencies]
+reqwest = { version = "0.10", default-features = false, features = ["json", "blocking"] }
+serde = {version ="1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+biscuit = "0.4"
+ring = "0.16"
+base64 = "0.11"
